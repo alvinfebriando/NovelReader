@@ -1,6 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CF66F39-CEE5-44D1-80B5-66549B0E8292}"
+	ProjectSection(SolutionItems) = preProject
+		extension.json = extension.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3F7A753E-C720-4201-BE68-96E8AED88226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{99BAC461-0706-40B6-9BA8-CB579D71FC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "src\Extension\Extension.csproj", "{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +23,18 @@ Global
 		{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BAC461-0706-40B6-9BA8-CB579D71FC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BAC461-0706-40B6-9BA8-CB579D71FC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BAC461-0706-40B6-9BA8-CB579D71FC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BAC461-0706-40B6-9BA8-CB579D71FC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A51DDBF4-2AE2-4AC1-80A9-CE3A78F31259} = {2CF66F39-CEE5-44D1-80B5-66549B0E8292}
+		{99BAC461-0706-40B6-9BA8-CB579D71FC84} = {3F7A753E-C720-4201-BE68-96E8AED88226}
+		{2B231E8B-AE2E-442E-8217-E0AAAE61FB1F} = {2CF66F39-CEE5-44D1-80B5-66549B0E8292}
 	EndGlobalSection
 EndGlobal
