@@ -1,0 +1,12 @@
+[
+  {
+    "name": "boxnovel",
+    "theme": "Madara",
+    "baseUrl": "https://boxnovel.com"
+  },
+  {
+    "name": "meionovel",
+    "theme": "Madara",
+    "baseUrl": "https://meionovel.id/"
+  }
+]
