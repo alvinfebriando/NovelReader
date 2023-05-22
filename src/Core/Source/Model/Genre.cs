@@ -1,0 +1,37 @@
+﻿namespace NovelReader.Core.Source.Model;
+
+public enum Genre
+{
+    Action,
+    Adventure,
+    Comedy,
+    Drama,
+    Ecchi,
+    Fantasy,
+    GenderBender,
+    Harem,
+    Historical,
+    Horror,
+    Josei,
+    MartialArts,
+    Mature,
+    Mecha,
+    Mystery,
+    Psychological,
+    Romance,
+    SchoolLife,
+    SciFi,
+    Seinen,
+    Shoujo,
+    Shounen,
+    SliceOfLife,
+    Smut,
+    Sports,
+    Supernatural,
+    Tragedy, 
+    Wuxia,
+    Xianxia, 
+    Xuanhuan, 
+    Yaoi, 
+    Yuri
+}
